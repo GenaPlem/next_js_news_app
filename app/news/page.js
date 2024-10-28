@@ -4,21 +4,15 @@ export default function NewsPage() {
   return (
     <>
       <h1>Fresh News every second</h1>
-      <ul>
+      <ul className="news-list">
         <li>
-          <p>
-            <Link href="/news/concert">Concert</Link>
-          </p>
+          <Link href="/news/concert">Concert</Link>
         </li>
         <li>
-          <p>
-            <Link href="/news/storm">Upcoming Storm</Link>
-          </p>
+          <Link href="/news/storm">Upcoming Storm</Link>
         </li>
         <li>
-          <p>
-            <Link href="/news/big_sales">Big Sales</Link>
-          </p>
+          <Link href="/news/big_sales">Big Sales</Link>
         </li>
       </ul>
     </>
