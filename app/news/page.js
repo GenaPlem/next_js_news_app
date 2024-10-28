@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MainHeader from "@/components/MainHeader";
+import MainHeader from "@/components/main-header";
 
 export default function NewsPage() {
   return (
