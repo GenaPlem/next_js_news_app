@@ -1,10 +1,8 @@
 import Link from "next/link";
-import MainHeader from "@/components/main-header";
 
 export default function NewsPage() {
   return (
     <>
-      <MainHeader />
       <h1>Fresh News every second</h1>
       <ul>
         <li>
