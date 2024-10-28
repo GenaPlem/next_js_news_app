@@ -1,7 +1,7 @@
 import Link from "next/link";
 import MainHeader from "@/components/MainHeader";
 
-export default function News() {
+export default function NewsPage() {
   return (
     <>
       <MainHeader />
